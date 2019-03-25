@@ -2,7 +2,7 @@ import sys
 import requests
 import config
 
-webhook=config.config['DISCORD']['config']
+webhook=config.config['DISCORD']['webhook']
 type=sys.argv[1]
 msg=sys.argv[2]
 
