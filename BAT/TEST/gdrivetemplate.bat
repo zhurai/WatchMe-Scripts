@@ -15,15 +15,5 @@ for /F "tokens=1,2,3,4,5,6,7,8 delims=\" %%a in ("%s%") do (
 
 cd %~dp0
 cd ..\..
-
-echo %a%
-echo %b%
-echo %c%
-echo %d%
-echo %e%
-echo %f%
-echo %g%
-echo "%~n0"
-
-C:\Python\pythonw.exe finished.py %h% "%~n0"
+C:\Python\pythonw.exe finished.py %g% "%~n0"
 cd %~dp0
