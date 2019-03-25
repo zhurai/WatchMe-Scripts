@@ -12,7 +12,7 @@ for /F "tokens=1,2,3,4,5,6,7,8 delims=\" %%a in ("%s%") do (
    set g=%%g
 )
 
-echo %g%
-echo %~n0
+cd %~dp0
+cd ..\..
 
-C:\Python\pythonw.exe ..\..\finished.py" %h% "%~n0"
+C:\Python\pythonw.exe finished.py %h% "%~n0"
